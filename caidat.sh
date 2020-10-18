@@ -8,6 +8,7 @@ sudo rm -rf winemesa
 sudo rm -f winemesa.tgz
 sudo apt -y update
 sudo apt -y install cmake gtk2-engines-murrine libncurses5 libncursesw5 libssl1.0.2 libglu1-mesa zenity mesa-utils
+cd /home/$USER
 git clone https://github.com/ptitSeb/box86.git
 cd box86
 mkdir backup
